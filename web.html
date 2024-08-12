@@ -124,6 +124,11 @@
         .lh-tight {
             line-height: 1.25;
         }
+        .scrollable-content {
+            max-height: 400px;
+            overflow-y: auto;
+            overflow-x: hidden;
+        }
     </style>
 
 </head>
@@ -342,80 +347,83 @@
                 </div>
             </div>
         </main>
-        <table class="table">
-            <thead>
-            <tr>
-                <th scope="col">Номер</th>
-                <th scope="col">Название товара</th>
-                <th scope="col">Цена за штуку</th>
-                <th scope="col">Количество</th>
-                <th scope="col">Итоговая сумма</th>
-                <th scope="col">Статус заказа</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <th>187456923</th>
-                <td>Силперокс</td>
-                <td>900</td>
-                <td>25</td>
-                <td>22500</td>
-                <td>
-                    <div class="alert alert-warning" role="alert">
-                        Обработка
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th>187456924</th>
-                <td>Дезолокс</td>
-                <td>1200</td>
-                <td>95</td>
-                <td>114000</td>
-                <td>
-                    <div class="alert alert-primary" role="alert">
-                        Новый
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th>187456925</th>
-                <td>Дезосепт Форте</td>
-                <td>750</td>
-                <td>60</td>
-                <td>45000</td>
-                <td>
-                    <div class="alert alert-success" role="alert">
-                        Обработан
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th>187456926</th>
-                <td>Дезосепт Фри</td>
-                <td>750</td>
-                <td>0</td>
-                <td>0</td>
-                <td>
-                    <div class="alert alert-danger" role="alert">
-                        Отмена
-                    </div>
-                </td>
-            </tr>
-            <tr>
-                <th>187456927</th>
-                <td>Дезосепт Макс</td>
-                <td>3</td>
-                <td>750</td>
-                <td>2250</td>
-                <td>
-                    <div class="alert alert-primary" role="alert">
-                        Новый
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        </table>
+        <div class="scrollable-content">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th scope="col">Номер</th>
+                    <th scope="col">Название товара</th>
+                    <th scope="col">Цена за штуку</th>
+                    <th scope="col">Количество</th>
+                    <th scope="col">Итоговая сумма</th>
+                    <th scope="col">Статус заказа</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <th>187456923</th>
+                    <td>Силперокс</td>
+                    <td>900</td>
+                    <td>25</td>
+                    <td>22500</td>
+                    <td>
+                        <div class="alert alert-warning" role="alert">
+                            Обработка
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>187456924</th>
+                    <td>Дезолокс</td>
+                    <td>1200</td>
+                    <td>95</td>
+                    <td>114000</td>
+                    <td>
+                        <div class="alert alert-primary" role="alert">
+                            Новый
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>187456925</th>
+                    <td>Дезосепт Форте</td>
+                    <td>750</td>
+                    <td>60</td>
+                    <td>45000</td>
+                    <td>
+                        <div class="alert alert-success" role="alert">
+                            Обработан
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>187456926</th>
+                    <td>Дезосепт Фри</td>
+                    <td>750</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>
+                        <div class="alert alert-danger" role="alert">
+                            Отмена
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <th>187456927</th>
+                    <td>Дезосепт Макс</td>
+                    <td>3</td>
+                    <td>750</td>
+                    <td>2250</td>
+                    <td>
+                        <div class="alert alert-primary" role="alert">
+                            Новый
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
     </div>
 
 
